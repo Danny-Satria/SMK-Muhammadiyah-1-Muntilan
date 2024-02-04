@@ -6,6 +6,17 @@
     left: 1.4em;
   }
 
+  .navbari {
+    background-color: #000056;
+    display: flex;
+    justify-content: start;
+    height: 6em;
+    z-index: 9999;
+    border-bottom: #2c2e30 1px solid;
+    position: fixed;
+    width: 1366px;
+  }
+
   .ul-navbar {
     width: 200px;
     background-color: #2f5597;
