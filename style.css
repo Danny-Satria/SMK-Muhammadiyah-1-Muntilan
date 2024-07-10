@@ -66,12 +66,18 @@ body {
   text-align: center;
 }
 
-.li-navbar:hover {
-  border: 3px solid #fcf300;
+.a-navbar:after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 2px;
+  width: 0px;
+  background: transparent;
+  transition: width 0.3s ease, background-color 0.3s ease;
 }
-
-.li-navbar:active {
-  border: 3px solid #fcf300;
+.a-navbar:hover:after {
+  width: 100%;
+  background: yellow;
 }
 
 /* Hamburger Menu CSS */

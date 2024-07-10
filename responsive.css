@@ -115,6 +115,20 @@
     left: 2.4em;
   }
 
+  .a-navbar:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width 0.3s ease, background-color 0.3s ease;
+  }
+  .a-navbar:hover:after {
+    width: 100%;
+    background: yellow;
+  }
+
   .kesatuan-hamburger-menu {
     display: block;
     position: fixed;
